@@ -5,8 +5,8 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters
 import openai
 
 # Завантаження змінних середовища
-TOKEN = os.getenv("7573113232:AAHOzjVBx0Ym4bGcXGVn_XkrYP-jsn0fM7U")  # Токен Telegram-бота
-OPENAI_API_KEY = os.getenv("***REMOVED***proj-dQbKQl5zeNawJoJVBthqzq5Q5yl-UJRvFh-roGCwx0ipcHn2VkGaqEp-aZq0PyMck2_KvaCqjoT3BlbkFJFWNC4WJolFIfSzXf8Jqam_nVOeyoRteiw9P5QwLAENVAdDEoHv1FYqajEcxU6R0plpJVazqzMA")  # API-ключ OpenAI
+TOKEN = os.getenv("BOT_TOKEN")  # Токен Telegram-бота
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")  # API-ключ OpenAI
 
 # Налаштування логування
 logging.basicConfig(
